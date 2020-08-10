@@ -1,0 +1,29 @@
+{
+  "name": "novel",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCAaron/novel.git"
+  },
+  "keywords": [
+    "vue3",
+    "vite",
+    "ui"
+  ],
+  "author": "aaron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PCAaron/novel/issues"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0-rc.1"
+  }
+}
