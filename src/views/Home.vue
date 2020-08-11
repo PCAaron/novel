@@ -5,8 +5,8 @@
             <h1>novel-ui</h1>
             <h2>A Vue.js 3.0 UI Toolkit for Web</H2>
             <P class="actions">
-                <a>Github</a>
-                <a>开始</a>
+                <a href="https://github.com/PCAaron/novel">Github</a>
+                <router-link to='/doc'>开始</router-link>
             </P>
         </div>
     </div>
