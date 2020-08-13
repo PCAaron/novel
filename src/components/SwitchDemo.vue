@@ -1,6 +1,7 @@
 <template>
     <div>
-        <Switch :value="_val" @input="_val = $event"/>
+        <Switch :value="_val" @update:value="_val = $event"/>
+        <div>Switch组件值：{{_val}}</div>
     </div>
 </template>
 <script lang="ts">
