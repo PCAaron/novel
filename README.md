@@ -1,5 +1,5 @@
 # novel
-> A Vue.js 3.0 UI Toolkit for Web       
+> A Vue.js 3.0 UI Toolkit for Web               
 
 ##　项目描述        
 > 基于 Vue3 + Vite + Vue-Router + TypeScript 搭建的UI框架     
