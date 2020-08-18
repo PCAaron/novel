@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button :class="{checked: value}" @click="toggleSwitch"><span></span></button>
+        <button class="nv-switch" :class="{checked: value}" @click="toggleSwitch"><span></span></button>
     </div>
 </template>
 <script lang="ts">
@@ -25,7 +25,7 @@ export default {
 <style lang="scss">
 $h: 22px;
 $h2: $h - 4px;
-button{
+.nv-switch{
     height: $h;
     width: $h*2;
     border:none;
@@ -49,7 +49,7 @@ button{
         }
     }
 }
-button:focus{
+.nv-switch:focus{
     outline: none
 }
 </style>
