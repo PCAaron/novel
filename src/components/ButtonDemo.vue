@@ -17,6 +17,8 @@
         <Button>按钮</Button>
         <h2>示例五</h2>
         <Button loading>按钮</Button>
+        <h2>示例六</h2>
+        <Button @click="onClick">按钮</Button>
     </div>
 </template>
 <script lang="ts">
@@ -27,7 +29,7 @@ export default {
     },
     setup() {
         const onClick = () =>{
-
+            alert('hello')
         }
         return {onClick}
     }
