@@ -15,6 +15,8 @@
         <h2>示例四</h2>
         <Button disabled>按钮</Button>
         <Button>按钮</Button>
+        <h2>示例五</h2>
+        <Button loading>按钮</Button>
     </div>
 </template>
 <script lang="ts">

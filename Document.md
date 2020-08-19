@@ -34,4 +34,25 @@
   - 必须加前缀：区别使用者常用命名    
   - CSS最小影响原则   
 
+## API设计
+
+### Switch组件
+```js
+  <Switch v-model:value="value"/>
+```
+
+### Button组件
+```js
+<Button
+  @click=?
+  @focus=?
+  @mouseover=?
+  theme="button || link || text"
+  level="main || normal || danger"
+  size="big || normal || small"
+  disabled
+  loading
+  ></Button>
+```
+
   
